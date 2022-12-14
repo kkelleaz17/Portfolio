@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Contact.css">
+</head>
+<body>
+    <div class="Item-wrapper">
+        <h1>Contact Us!</h1>
+     <form class="ITEM">
+            <input id="name" name="Name" type="text" placeholder="Name" pattern="[A-Za-z[\s]]*{15}">
+            <br>
+            <input id="email" name="Email" type="email" placeholder="Email" pattern="[A-Za-z0-9]*{20}[@][A-Za-z[-_]]*{20}[.][A-Za-z]{3}">
+            <br>
+            <input id="phone" name="Phone" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10">
+            <br>
+            <textarea id="Text-Area" placeholder="Message for us"></textarea>
+            <br>
+        <button type="submit">Submit</button>
+     </form>
+    </div>
+
+</body>
+</html>
